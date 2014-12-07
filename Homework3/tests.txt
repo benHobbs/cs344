@@ -1,0 +1,6 @@
+Name:        		Benjamin Hobbs
+Email:       		hobbsbe@ondi.oregonstate.edu
+Class:       		CS344-400
+Assignment:  	Homework #3
+
+Tests included all of the required tests, as well as additional tests on the delete, extract and add all options.

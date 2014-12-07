@@ -1,0 +1,10 @@
+Name:        		Benjamin Hobbs
+Email:      		 hobbsbe@ondi.oregonstate.edu
+Class:       		CS344-400
+Assignment:  	Homework #1
+Question:   		 3
+
+Difference Between Redirection and Piping on Unix
+    PIPING is used to pass the output of a program to another program, whereas
+REDIRECTION is used to pass the output of a program to a stream (including
+a file stream).

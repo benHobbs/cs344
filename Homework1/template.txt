@@ -1,0 +1,6 @@
+Name:        Benjamin Hobbs
+Email:       hobbsbe@ondi.oregonstate.edu
+Class:       CS344-400
+Assignment:  Homework #1
+Question:    ...
+

@@ -1,0 +1,26 @@
+/**************************************************************************************************
+ ** Author:         		Benjamin Hobbs
+ ** Email:					hobbsbe@onid.oregonstate.edu
+ ** Class:					CS344-400
+ ** Assignment:		Homework #2
+ **************************************************************************************************
+ ** Date Created:		7/6/2014
+ ** File Name:			problem8.txt
+ ** Overview:			Output from gdb
+**************************************************************************************************/
+Reading symbols from /nfs/stak/students/h/hobbsbe/cs344/Homework2/Problem8...done.
+(gdb) run
+Starting program: /nfs/stak/students/h/hobbsbe/cs344/Homework2/Problem8
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040049c in func (ptr=0x0) at Problem8.c:19
+19                      ptr[i] = i;
+Missing separate debuginfos, use: debuginfo-install glibc-2.12-1.132.el6.x86_64
+(gdb) bt
+#0  0x000000000040049c in func (ptr=0x0) at Problem8.c:19
+#1  0x00000000004004cd in main (argc=1, argv=0x7fffffffe398) at Problem8.c:25
+(gdb) print ptr
+$1 = (int *) 0x0
+(gdb) print i
+$2 = 0
+(gdb)

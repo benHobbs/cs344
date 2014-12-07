@@ -1,0 +1,35 @@
+Name:        		Benjamin Hobbs
+Email:       		hobbsbe@ondi.oregonstate.edu
+Class:       		CS344-400
+Assignment:  	Homework #1
+Question:    		2
+
+Revision Control Systems:
+    A revision control system, is a program that allows a user or team of
+users to control the revisions on their projects/files. In short, it allows
+for storage, retrieval and logging of revised files in a manner that
+facilitates ease of access and eliminates accidental overwriting.
+
+   They are useful because they allow a user to modify code without impacting
+the original files, and also because the allow for collaboration of multiple
+users on the same project without fear of accidental deletions or overwrites.
+
+Examples(4 with 3 commands each):
+    git
+    -git init							(create a new local repository)
+    -git add <filename>    	(add file to staging, before commit)
+    -git commit -a          		(commit the files you added with add)
+    cvs
+    -cvs checkout <dir>     (reserve files you want to edit)
+    -cvs add <filename>  	(add file to working directory)
+    -update                 		(brings a checked out directory up to date)
+    Mercurial
+    -hg clone               		(creates a copy of a directory to work on)
+    -hg sum                 		(summerize the state of the working directory)
+    -hg init                			(create a new local repository)
+    svn
+    -svn co                 		(reserve files you want to edit)
+    -svn propset            		(sets properties of working directory)
+    -svn delete             		(deletes after commit)
+
+    

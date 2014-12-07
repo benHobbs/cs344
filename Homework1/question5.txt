@@ -1,0 +1,8 @@
+Name:        		Benjamin Hobbs
+Email:       		hobbsbe@ondi.oregonstate.edu
+Class:       		CS344-400
+Assignment:  	Homework #1
+Question:    		5
+
+The make command determines which parts of a program need to be re-compiled
+in order to bring the program up to date and run said program.

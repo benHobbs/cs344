@@ -1,0 +1,20 @@
+Author:         		Benjamin Hobbs
+Email:					hobbsbe@onid.oregonstate.edu
+Class:					CS344-400
+Assignment:			Homework #5
+
+Partition Discussion
+
+To be completely honest, I though up two different ways to attack this problem:
+
+The first involved giving the earlier process exponentially more numbers, and the second
+involved a multiplicative approach.  However, for my first implementation I simply divided
+the search ranges equally between each thread/process.  With 500 threads/processes,
+the programs that I wrote were able to beat the goal of 43 seconds, and I decided that it
+was a classic case of diminishing returns.  Ideally, it would make sense to do some testing
+with single processes to see how much time certain ranges of numbers take to prime (it's
+a verb now), however, as I am in the process of moving all of my worldly possessions across
+the country (and beyond), I am pretty happy that it all runs.  Hopefully you are as well.
+
+Regards,
+Benjamin Hobbs

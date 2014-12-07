@@ -1,0 +1,8 @@
+Name:   			Benjamin Hobbs
+Email:  			hobbsbe@onid.oregonstate.edu
+Class:  			344-400
+Assignment:  	Homework #1
+
+test file
+some text
+beam me up Scotty

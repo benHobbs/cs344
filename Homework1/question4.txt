@@ -1,0 +1,10 @@
+Name:        		Benjamin Hobbs
+Email:       		hobbsbe@ondi.oregonstate.edu
+Class:       		CS344-400
+Assignment:  	Homework #1
+Question:    		4
+
+Command:
+    find . -type f -exec file '{}' \;
+
+    From the find man file.
